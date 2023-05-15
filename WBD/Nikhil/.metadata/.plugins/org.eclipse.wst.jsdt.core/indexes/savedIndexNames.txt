@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\6th sem\WBD\Nikhil\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2041243520.index

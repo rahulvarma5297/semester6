@@ -1,0 +1,10 @@
+package org.oorsprong.www.websamples_countryinfo;
+
+public class TestWS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

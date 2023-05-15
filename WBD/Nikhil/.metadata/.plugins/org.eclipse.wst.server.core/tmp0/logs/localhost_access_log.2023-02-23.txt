@@ -1,0 +1,7 @@
+127.0.0.1 - - [23/Feb/2023:09:09:24 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [23/Feb/2023:09:09:48 +0530] "POST /Calculator/services/AdminService HTTP/1.0" 200 291
+127.0.0.1 - - [23/Feb/2023:09:09:48 +0530] "POST /Calculator/services/AdminService HTTP/1.0" 200 4191
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:09:13:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:09:13:31 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:09:15:52 +0530] "GET /Calculator/services/Calculator HTTP/1.1" 200 134
+0:0:0:0:0:0:0:1 - - [23/Feb/2023:09:16:32 +0530] "GET /Calculator/services/Calculator?wsdl HTTP/1.1" 200 2504

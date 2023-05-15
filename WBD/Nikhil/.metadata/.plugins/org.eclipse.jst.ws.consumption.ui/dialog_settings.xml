@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://localhost:8080/Calcul/services/Calculator?wsdl"/>
+		<item value="http://localhost:8080/Chatserver/services/Chat?wsdl"/>
+		<item value="http://localhost:8080/Temperature/services/Temperature?wsdl"/>
+		<item value="http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?wsdl"/>
+	</list>
+</section>

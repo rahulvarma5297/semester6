@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://DefaultNamespace" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://DefaultNamespace" xmlns:intf="http://DefaultNamespace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://DefaultNamespace" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="chat">
+    <complexType>
+     <sequence>
+      <element name="str" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="chatResponse">
+    <complexType>
+     <sequence>
+      <element name="chatReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="chatRequest">
+
+      <wsdl:part element="impl:chat" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="chatResponse">
+
+      <wsdl:part element="impl:chatResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Chat">
+
+      <wsdl:operation name="chat">
+
+         <wsdl:input message="impl:chatRequest" name="chatRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:chatResponse" name="chatResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="ChatSoapBinding" type="impl:Chat">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="chat">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="chatRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="chatResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="ChatService">
+
+      <wsdl:port binding="impl:ChatSoapBinding" name="Chat">
+
+         <wsdlsoap:address location="http://localhost:8080/Chatserver/services/Chat"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

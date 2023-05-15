@@ -1,0 +1,19 @@
+package DefaultNamespace;
+
+import java.rmi.RemoteException;
+
+public class Calci {
+
+	public static void main(String[] args) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+		CalculatorProxy obj = new CalculatorProxy();
+
+		System.out.println(" +  : "+ obj.add(40, 50) );
+		System.out.println(" -  : "+ obj.sub(40, 50) );
+		System.out.println(" *  : "+ obj.mult(40, 50));
+		System.out.println(" /  : "+ obj.div(40, 50));
+		System.out.println(" %  : "+ obj.mod(40, 50));
+	}
+
+}

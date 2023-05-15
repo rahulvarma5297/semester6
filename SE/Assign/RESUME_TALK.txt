@@ -1,0 +1,11 @@
+Hi, My name is Rahul Varma, I'm currently pursuing my Btech in Computer Science from IIIT Sri City, with an impressive CGPA of 9.35.
+
+My technical skills include programming languages like C/C++, Java, Python and I am proficient in tools like Git, NodeJS, and ReactJS, also worked with databases like MySQL and MongoDB.
+
+In terms of experience, I recently completed a subject matter expert internship at Abekus, where I created computer science questions related to machine learning, Docker, blockchain, Node.js, and React.js for their website.
+
+I have also worked on some exciting projects, like the Car Rental Management System, Netflix Home Page Clone, Tours and Travel, and the Food Delivery App, using languages like Java, HTML, JavaScript, CSS, and frameworks like ReactJS, Redux, and Laravel.
+
+I am confident that my skills, experience, and projects can bring value to any organization, and I look forward to discussing how I can contribute to your team.
+
+Thank you for watching my video resume, and I hope to hear from you soon.

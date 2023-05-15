@@ -1,0 +1,90 @@
+Record in MongoDB is a ___.
+
+   a. Document
+    b. Table
+    c. Application
+    d. None of the mentioned above
+MongoDB stores documents in ___.
+
+    a. Store
+    b. Collections
+    c. Indexes
+    d. None of the mentioned above
+A document is a set of ___.
+
+  a.  Key-value pairs
+  b.  Application pairs
+  c.  Activity pair set
+  d.  None of the mentioned above
+Field is a name-value pair in a ___.
+
+  a.  Attribute
+  b.  Table
+  c.  Document
+  d.  None of the mentioned above
+The data in MongoDB has a flexible schema?
+
+    True
+    False
+
+The process of finding a good strategy for processing a query is called
+
+A. Query optimization            
+B. Query processing
+C. Query management
+D. Query cost
+
+Each relational-algebra expression represents a particular sequence of
+A. Parameters
+B. Differentials 
+C. Operations
+D. Routines
+
+Paper 4:
+. Redis is a NoSQL database, which stores the value in ____ format.
+
+  a.  Document format
+  b.  Key-value store
+  c.  Column-oriented
+  d.  Graph format
+Redis architecture contains how many processes?
+
+    4
+    5
+    3
+    2
+Which process in the Redis architecture is responsible for storing the data in memory and is also responsible for controlling every type of management?
+
+    Redis client
+    Redis server.
+How many data types are there in Redis?
+
+    4
+    5
+    3
+    2
+Which of the following commands is used to check whether the key exists or not?
+
+        Is_there
+        Is_key
+        Exist key
+        Key_exist
+
+Does index take space in Disk?
+
+a) It stores in memory as and when required.
+b) Yes, Indexes are stored on the disk.
+c) Indexes are never stored on the disk.
+d) Index takes no space.
+
+Each database can have only one clustered index.
+
+A) True
+B) False
+How Non Clustered indexes points to the data?
+
+a) It never points to anything.
+b) It directly points to data row.
+c) It is used for pointing data rows containing key values.
+d) None of the above.
+

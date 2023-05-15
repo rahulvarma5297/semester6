@@ -1,0 +1,51 @@
+Middleware Assignment:
+
+Please design a Project information application with the following features:
+
+Question 1: Application should have some static files and need to handle through middleware
+
+    public folder has uploads folder and images folder which are static files
+    views folder has data.ejs and form.ejs which are static files.
+    These are all static files and need to handle through middleware
+    Handled through express.static middleware
+    express middleware.
+
+Question 2: It should have a form data and same should pass and print in the form post page
+        Form data should be passed through body-parser middleware
+        Handled through body-parser middleware
+        body-parser middleware.
+        form.ejs file is used to create a form
+        data.ejs file is used to print the form data
+
+Question 3: Create a form for updating the project information using csrf token
+
+    While Submitting the form the csrf token is generated
+    csrf token is generated using csurf middleware
+    csurf middleware.
+    csrf token is generated in the form.ejs file
+    csrf token is validated in the data.ejs file
+
+
+Question 4: After, every hour application should save log information using Morgan middleware.
+    access.log file is created in the root folder
+    which saves the log information
+    and log information is saved after every hour
+
+Question 5: Application should upload file using multer for profile pic of the user
+    multer middleware is used to upload the file
+    profile pic is uploaded in the uploads folder
+    and file name is saved in the database uploads folder
+
+    rendered in the data.ejs file
+
+
+
+Instructions to run the application:
+
+Run npm install to install all the dependencies: (npm install)
+and run nodemon index.js to run the application: (nodemon .\index.js)
+
+In Browser open http://localhost:3000/form
+Submit the data and it is rendered in the http://localhost:3000/data
+csrf token is automatically generated in the form.ejs file
+while Submitting is checks and validated in the data.ejs file
